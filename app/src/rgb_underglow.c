@@ -162,7 +162,6 @@ static void zmk_rgb_underglow_effect_spectrum(void) {
     state.animation_step = state.animation_step % HUE_MAX;
 }
 
-
 static void zmk_rgb_underglow_tick(struct k_work *work) {
     switch (state.current_effect) {
     case UNDERGLOW_EFFECT_SOLID:
